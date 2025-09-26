@@ -3,7 +3,7 @@ EE221 Fall 2024 Semester Mini Project
 
 # Single-Octave Keyboard (VHDL) — Altera DE1-SoC
 
-**Top entity:** `octave1`  
+**Top entity:** `vhdl_single_octave_keyboard`  
 **Purpose:** Drive a piezo buzzer with a musical tone selected by slide switches and show the note/frequency on four 7-segment displays.
 
 ## What it does
