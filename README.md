@@ -27,11 +27,11 @@ EE221 Fall 2024 Semester Mini Project
 | Selected switch | Note | Frequency (Hz) | seg7_0 |
 |---|---|---:|---|
 | SW7 | A' | 880 | A |
-| SW6 | G# | 831 | G |
-| SW5 | F# | 740 | F |
+| SW6 | G  | 831 | G |
+| SW5 | F  | 740 | F |
 | SW4 | E  | 659 | E |
 | SW3 | D  | 587 | D |
-| SW2 | C# | 554 | C |
+| SW2 | C  | 554 | C |
 | SW1 | B  | 494 | B |
 | SW0 | A  | 440 | A |
 
