@@ -8,7 +8,7 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 use ieee.numeric_std.all;
 
-entity octave1 is
+entity vhdl_single_octave_keyboard is
     port (
         switch   : in std_logic_vector(7 downto 0);  			-- 8 slide switches
         clk      : in std_logic;                    			-- 50 MHz clock input
@@ -19,9 +19,9 @@ entity octave1 is
         seg7_2   : out std_logic_vector(6 downto 0); 			-- Third 7-segment (tens place)
         seg7_3   : out std_logic_vector(6 downto 0)  			-- Fourth 7-segment (ones place)
     );
-end octave1;
+end vhdl_single_octave_keyboard;
 
-architecture behavioral of octave1 is
+architecture behavioral of vhdl_single_octave_keyboard is
 
     signal q        : integer range 0 to 7 := 0;         	-- Priority encoder output (0-7 based on switches)
     signal freq     : std_logic_vector(23 downto 0);    		-- Frequency divider value for buzzer
@@ -145,3 +145,4 @@ begin
     buzzer <= pulse;
 
 end behavioral;
+
