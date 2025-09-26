@@ -1,55 +1,42 @@
-# Prerequisites
-*.d
+# ---------- Vivado / ISE ----------
+*.jou
+*.log
+*.rpt
+*.wdb
+*.pb
+*.dcp
+*.bit
+*.bin
+*.xpr
+*.xise
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
 
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# ---------- Quartus ----------
+db/
+incremental_db/
+*.rpt
+*.sof
+*.pof
+*.qpf
+*.qsf
 
-# Linker output
-*.ilk
-*.map
-*.exp
+# ---------- ModelSim / Questa ----------
+work/
+transcript
+vsim.wlf
+*.wlf
+*.ucdb
+*.vcd
 
-# Precompiled Headers
-*.gch
-*.pch
+# ---------- GHDL ----------
+work-obj*/
+*.ghw
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-# debug information files
-*.dwo
+# ---------- Editors / OS ----------
+.vscode/
+*.swp
+.DS_Store
